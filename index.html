@@ -4,22 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <div class="jumbotron bg-dark text-white">
-      <h1 class="text-center">TO-DO APP</h1>
+    <div id="container">
+      <header class="d-flex justify-content-around">
+        <h1>TO-DO LIST</h1>
+        <button>+</button>
+      </header>
+      <br />
+      <section class="addTodo">
+        <input type="text" placeholder="Add New ToDo" id="" />
+      </section>
+      <section class="displayTodo">
+        <ul>
+          <li><span> X </span>Go To Class</li>
+          <li><span> X </span>Buy new phone</li>
+          <li><span> X </span>learn DSA</li>
+        </ul>
+      </section>
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <!-- <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script> -->
     <script src="./js/index.js"></script>
   </body>
 </html>
