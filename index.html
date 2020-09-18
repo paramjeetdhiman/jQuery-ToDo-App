@@ -3,32 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>jQuery Todo App</title>
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <div id="container">
-      <header class="d-flex justify-content-around">
-        <h1>TO-DO LIST</h1>
-        <button>+</button>
+      <header>
+        <h1>TO-DO LIST <i class="fa fa-plus"></i></h1>
       </header>
-      <br />
-      <section class="addTodo">
-        <input type="text" placeholder="Add New ToDo" id="" />
-      </section>
-      <section class="displayTodo">
-        <ul>
-          <li><span> X </span>Go To Class</li>
-          <li><span> X </span>Buy new phone</li>
-          <li><span> X </span>learn DSA</li>
-        </ul>
-      </section>
+      <input type="text" placeholder="Add New Todo" id="" maxlength="40" />
+      <ul></ul>
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./js/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/43e6c51c25.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script> -->
     <script src="./js/index.js"></script>
